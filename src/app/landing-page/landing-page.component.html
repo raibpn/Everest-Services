@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+<!-- Page Content -->
+<div id="title" class="container" style="">
+  <h1 align="center">Everest-Services APS </h1>
+  <hr>
+  <H3 align="center">Our Services</H3>
+  <hr>
+</div>
+<div class="shadow p-3 mb-5 bg-white rounded">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style="max-width: 45rem;">
+          <img src="../assets/Images/kokken.jpg" class="card-img-top" alt="...">
+
+          <div class="card-body">
+            <h5 class="card-title">Køkken</h5>
+            <hr>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <button class="btn btn-primary" [routerLink]="['kokken']">View Services</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" style="max-width: 45rem;">
+          <img src="../assets/Images/regnoring.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title">Rengøring</h5>
+            <hr>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+            <button class="btn btn-primary" [routerLink]="['regnoring']">View Services</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+</div>
+
+
+<footer>
+  <app-footer></app-footer>
+</footer>

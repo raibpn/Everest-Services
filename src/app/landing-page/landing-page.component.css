@@ -1,0 +1,15 @@
+#title {
+  padding-bottom: 1px;
+}
+
+#cards {
+  height: 322px;
+}
+
+.card-img-top {
+  height: 322px;
+}
+
+.card-img-top img {
+  object-fit: contain;
+}

@@ -1,0 +1,86 @@
+/* Resets */
+
+  
+  /* Jumbotron (hero) */
+  .jumbotron {
+    position: relative;
+    background-image:url('/assets/Images/factory.gif');
+   
+    }
+    
+    .container {
+      padding: 95px 0;
+    }
+    
+    h1 {
+      color: #fff;
+    }
+
+    .lead {
+      color: cyan;
+      font-weight: bold;
+    }
+
+    .h4{
+        color: black;
+    }
+  .feature-icon{
+    background-image:url('/assets/Images/restaurant.png');
+    max-width:100%;
+    height:auto;
+  }
+
+  .feature-icon2{
+    background-image:url('/assets/Images/cleaning.png');
+    max-width:100%;
+    height:auto;
+}
+
+.feature-icon3{
+    background-image:url('/assets/Images/food-truck.png');
+    max-width:100%;
+    height:auto;
+
+  }
+  /* .feature-icon1 {
+    position: relative
+  }
+  .feature-icon2 {
+    position: relative
+
+  }
+  .feature-icon3 {
+    position: relative
+  } */
+
+  /* Testimonials */
+.sec-testimonials {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+/* Carousel */
+.carousel-indicators {
+  bottom: -30px;}
+
+  li {
+    background: rgba(33, 33, 33, .1);}
+
+  .active {
+    /* background: black; */
+  }
+
+
+.carousel-control-next,
+.carousel-control-prev {
+   
+    color: #212121;
+  }
+
+  :focus,
+  :hover {
+    color: #111;
+  }
+
+  
+  
